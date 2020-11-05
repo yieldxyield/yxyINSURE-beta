@@ -8,5 +8,5 @@ module.exports = async function (deployer) {
   await deployer.deploy(YxYi, dfip.address, 0, false, 0);
   const YxYi = await YxYi.deployed();
 
-  await dfip.approve(YxYi.address, "300000000000000000");
+  await dfip.approve(YxYi.address, "TBA");
 };
